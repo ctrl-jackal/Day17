@@ -1,0 +1,129 @@
+html,
+body {
+  height: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  padding: 40px 80px;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgb(22, 22, 22);
+}
+#right {
+  background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.showcase-text {
+  color: white;
+  font-weight: 500;
+}
+.logo {
+  text-align: center;
+  padding: 20px 0;
+}
+.logo img {
+  width: 250px;
+}
+form {
+  display: flex;
+  background-color: inherit;
+  height: 200px;
+  align-content: center;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 40px;
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+form label {
+  font-size: 13px;
+  color: white;
+  padding-bottom: 5px;
+}
+form input {
+  background-color: inherit;
+  height: 30px;
+  padding-left: 10px;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+
+.primary-btn {
+  margin-top: 20px;
+  background-color: rgb(5, 142, 255);
+  color: White;
+  line-height: 40px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 2px;
+  border: 0;
+  padding: 0;
+}
+#links {
+  margin: 30px 0 20px 0;
+  font-size: 13px;
+  padding-top: 10px;
+}
+#links a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: rgb(5, 142, 255);
+  margin-top: 10px;
+}
+
+.secondary-btn {
+  width: 100%;
+  background-color: grey;
+  display: flex;
+  border-radius: 2px;
+  font-size: 14px;
+  height: 40px;
+  text-decoration: none;
+  justify-content: center;
+  line-height: 40px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: white;
+}
+#right .secondary-btn {
+  width: 75%;
+  margin: 0 auto;
+}
+.hr-bar {
+  margin-bottom: 20px;
+}
+.hr-bar .bar {
+  border-radius: 20px;
+}
+
+#main-footer {
+  color: white;
+  text-align: center;
+  font-size: 13px;
+}
+
+#main-footer div a {
+  padding: 0 5px;
+  font-size: 11px;
+  color: inherit;
+}
